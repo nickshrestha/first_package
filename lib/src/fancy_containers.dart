@@ -1,5 +1,4 @@
 
-import 'package:first_package/src/utils/contailner_type.dart';
 import 'package:flutter/material.dart';
 
 class FancyContainer extends StatefulWidget {
@@ -27,7 +26,7 @@ class FancyContainer extends StatefulWidget {
   final Color? textColor;
   final String? subtitle;
   final Color? subtitleColor;
-  final FancyContainersCallback? onTap;
+  final Function()? onTap;
   final EdgeInsetsGeometry? padding;
   final TextStyle? titleStyle;
   final TextStyle? subtitleStyle;
